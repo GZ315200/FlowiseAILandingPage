@@ -14,7 +14,7 @@ export default function Logo({ src, ...rest }) {
       }}
       {...rest}
     >
-      <Image sx={{ width: "60%" }} src={src} alt="startup landing logo" />
+      <Image sx={{ width: "60%" }} src={src} alt="FlowiseAI landing logo" />
     </Link>
   );
 }

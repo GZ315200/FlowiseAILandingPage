@@ -2,10 +2,10 @@ import React from "react";
 import Head from "next/head";
 
 export default function SEO({
-  description = "startup apps landing page",
+  description = "Integrate your AI Workflow",
   author = "FlowiseAI, Inc",
   meta,
-  title = "startup landing title",
+  title = "Integrate your AI Workflow",
 }) {
   const metaData = [
     {

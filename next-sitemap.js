@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-app-modern.vercel.app',
+  siteUrl: "https://flowiseai.com",
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {
