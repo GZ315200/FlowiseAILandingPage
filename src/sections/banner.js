@@ -56,7 +56,7 @@ export default function Banner() {
             Open source AI workflow automation, customizable and easily
             integrating with your daily productivity tools
           </Text>
-          <Flex>
+          <Flex sx={{ mb: 5 }}>
             <Button
               variant="whiteButton"
               aria-label="View Github"
@@ -83,7 +83,11 @@ export default function Banner() {
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerThumb} alt="banner" />
+          <Image
+            sx={{ mt: -50, height: "90%", mr: 5 }}
+            src={BannerThumb}
+            alt="banner"
+          />
         </Box>
       </Container>
     </section>
@@ -99,7 +103,7 @@ const styles = {
     backgroundSize: "cover",
     borderBottomRightRadius: [100, 150, null, null, null, 250],
     pt: ["150px", null, null, null, null, null, "140px", "130px"],
-    pb: ["100px", null, null, "110px", null, 10, "150px"],
+    pb: ["10px", null, null, "10px", null, 10, "15px"],
     backgroundColor: "primary",
     container: {
       display: "flex",
