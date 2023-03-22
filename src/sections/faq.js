@@ -68,11 +68,19 @@ const faqs = [
     title: `How to reach out?`,
     contents: (
       <div>
-        Feel free to reach us at{" "}
-        <a href="mailto:hello@flowiseai.com">hello@flowiseai.com</a>
+        Feel free to reach us at:
         <br />
-        or Book a demo via&nbsp;
-        <a href="https://calendly.com/henryheng/30min">Calendly</a>
+        <a target="_blank" href="mailto:hello@flowiseai.com">
+          hello@flowiseai.com
+        </a>
+        <br />
+        <a target="_blank" href="https://discord.gg/GWcGczPk">
+          Discord
+        </a>
+        <br />
+        <a target="_blank" href="https://calendly.com/henryheng/30min">
+          Book Demo
+        </a>
       </div>
     ),
   },
