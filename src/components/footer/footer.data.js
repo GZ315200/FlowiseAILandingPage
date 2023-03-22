@@ -1,97 +1,89 @@
 export default [
   {
-    header: 'About Us',
+    header: "Section",
     items: [
       {
-        path: '/',
-        label: 'Support Center',
+        path: "/home",
+        label: "Home",
       },
       {
-        path: '/',
-        label: 'Customer Support',
+        path: "/",
+        label: "Customer Support",
       },
       {
-        path: '/',
-        label: 'About Us',
+        path: "/",
+        label: "About Us",
       },
       {
-        path: '/',
-        label: 'Copyright',
+        path: "/",
+        label: "Copyright",
       },
       {
-        path: '/',
-        label: 'Popular Campaign',
+        path: "/",
+        label: "Popular Campaign",
       },
     ],
   },
   {
-    header: 'Our Information',
+    header: "Contact Us",
     items: [
       {
-        path: '/',
-        label: 'Return Policy ',
+        path: "https://calendly.com/henryheng/30min",
+        label: "Book Demo",
       },
       {
-        path: '/',
-        label: 'Privacy Policy',
+        path: "mailto:hello@flowiseai.com",
+        label: "Email",
       },
       {
-        path: '/',
-        label: 'Terms & Conditions',
-      },
-      {
-        path: '/',
-        label: 'Site Map',
-      },
-      {
-        path: '/',
-        label: 'Store Hours',
+        path: "https://discord.gg/GWcGczPk",
+        label: "Discord",
       },
     ],
   },
   {
-    header: 'My Account',
+    header: "My Account",
     items: [
       {
-        path: '/',
-        label: 'Press inquiries',
+        path: "/",
+        label: "Press inquiries",
       },
       {
-        path: '/',
-        label: 'Social media ',
+        path: "/",
+        label: "Social media ",
       },
       {
-        path: '/',
-        label: 'directories',
+        path: "/",
+        label: "directories",
       },
       {
-        path: '/',
-        label: 'Images & B-roll',
+        path: "/",
+        label: "Images & B-roll",
       },
       {
-        path: '/',
-        label: 'Permissions',
+        path: "/",
+        label: "Permissions",
       },
     ],
   },
   {
-    header: 'Policy',
+    header: "Policy",
     items: [
       {
-        path: '/',
-        label: 'Application security',
+        path: "/",
+        label: "Application security",
       },
       {
-        path: '/',
-        label: 'Software principles',
+        path: "/",
+        label: "Software principles",
       },
       {
-        path: '/',
-        label: 'Unwanted software policy',
+        path: "/",
+        label: "Unwanted software policy",
       },
       {
-        path: '/',
-        label: 'Responsible supply chain',
+        path: "/",
+        label: "Responsible supply chain",
       },
     ],
   },

@@ -1,27 +1,26 @@
 /** @jsx jsx */
-import { jsx, Container, Box } from "theme-ui";
+import { jsx } from "theme-ui";
+import { Container, Box } from "theme-ui";
 import TextFeature from "components/text-feature";
 import Image from "components/image";
-import Partner from "assets/partner.png";
+
+import PaymentThumb from "assets/coreFeature-2.png";
 import PaymentPattern from "assets/payment-pattern.png";
 
 const data = {
   subTitle: "",
-  title: "Connect open source AI models with applications",
+  title: "Speech to Text, Audio Recognition and Voice Detection",
   description:
-    "FlowiseAI enable developers to build custom apps integration, combined with open source AI model APIs, building complex and powerful workflows",
-  btnName: "See All Integrations",
-  btnURL:
-    "https://github.com/FlowiseAI/FlowiseAI/tree/main/packages/components/nodes",
+    "Transcripe a recording from meetings into text and summarize the key notes, detect audio tone, generate new audio with different persona",
 };
 
-export default function PartnerSection() {
+export default function CoreFeature2() {
   return (
     <section sx={{ variant: "section.securePayment" }}>
       <Box sx={styles.bgOverlay} />
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={Partner} alt={data.title} />
+          <Image src={PaymentThumb} alt={data.title} />
         </Box>
         <Box sx={styles.contentBox}>
           <TextFeature

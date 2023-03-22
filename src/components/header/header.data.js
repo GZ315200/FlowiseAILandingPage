@@ -1,18 +1,18 @@
 export default [
   {
-    path: 'home',
-    label: 'Home',
+    path: "home",
+    label: "Home",
   },
   {
-    path: 'feature',
-    label: 'Features',
+    path: "whyus",
+    label: "Why FlowiseAI",
   },
   {
-    path: 'testimonial',
-    label: 'Testimonial',
+    path: "feature",
+    label: "Features",
   },
   {
-    path: 'pricing',
-    label: 'Pricing',
+    path: "faq",
+    label: "FAQ",
   },
 ];

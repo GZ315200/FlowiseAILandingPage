@@ -8,8 +8,13 @@ import LogoWhite from "assets/flowise_logo_dark.png";
 import { DrawerProvider } from "../../contexts/drawer/drawer.provider";
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
+import { FaGithub } from "react-icons/fa";
 
 export default function Header({ className }) {
+  const handleViewGithubClick = (e) => {
+    e.preventDefault();
+    window.open("https://github.com/FlowiseAI/FlowiseAI", "_blank");
+  };
   return (
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
@@ -36,8 +41,10 @@ export default function Header({ className }) {
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"
+            onClick={handleViewGithubClick}
           >
-            Get Started
+            <FaGithub />
+            &nbsp; View Github
           </Button>
 
           <MobileDrawer />

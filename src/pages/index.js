@@ -7,6 +7,8 @@ import Layout from "components/layout";
 import Banner from "sections/banner";
 import KeyFeature from "sections/key-feature";
 import CoreFeature from "sections/core-feature";
+import CoreFeature1 from "sections/core-feature-1";
+import CoreFeature2 from "sections/core-feature-2";
 import Feature from "sections/feature";
 import PartnerSection from "sections/partner";
 import WorkFlow from "sections/workflow";
@@ -24,12 +26,10 @@ export default function IndexPage() {
           <Banner />
           <KeyFeature />
           <CoreFeature />
-          <Feature />
+          <CoreFeature1 />
+          <CoreFeature2 />
           <PartnerSection />
           <WorkFlow />
-          <TestimonialCard />
-          <SecurePayment />
-          <Package />
           <Faq />
         </Layout>
       </StickyProvider>

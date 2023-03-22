@@ -17,19 +17,19 @@ import client3 from "assets/sponsor/dropbox.svg";
 const data = [
   {
     id: 1,
-    path: "#",
+    path: "/",
     image: client1,
     title: "paypal",
   },
   {
     id: 2,
-    path: "#",
+    path: "/",
     image: client2,
     title: "google",
   },
   {
     id: 3,
-    path: "#",
+    path: "/",
     image: client3,
     title: "dropbox",
   },
@@ -56,13 +56,14 @@ export default function Banner() {
             Open source AI workflow automation, customizable and easily
             integrating with your daily productivity tools
           </Text>
-          <Flex sx={{ mb: 5 }}>
+          <Flex>
             <Button
               variant="whiteButton"
               aria-label="View Github"
               onClick={handleViewGithubClick}
             >
-              <FaGithub /> View Github
+              <FaGithub />
+              &nbsp; View Github
             </Button>
             <>
               <ModalVideo
@@ -80,14 +81,19 @@ export default function Banner() {
               </Button>
             </>
           </Flex>
+          <Flex sx={styles.sponsorBox}>
+            <Box sx={styles.sponsorBox.sponsor}>
+              {data.map((item, index) => (
+                <Link path={item.path} key={`client-key${index}`}>
+                  <Image src={item.image} alt={item.title} />
+                </Link>
+              ))}
+            </Box>
+          </Flex>
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image
-            sx={{ mt: -50, height: "90%", mr: 5 }}
-            src={BannerThumb}
-            alt="banner"
-          />
+          <Image sx={{ height: "90%" }} src={BannerThumb} alt="banner" />
         </Box>
       </Container>
     </section>
@@ -103,7 +109,7 @@ const styles = {
     backgroundSize: "cover",
     borderBottomRightRadius: [100, 150, null, null, null, 250],
     pt: ["150px", null, null, null, null, null, "140px", "130px"],
-    pb: ["10px", null, null, "10px", null, 10, "15px"],
+    pb: ["100px", null, null, "110px", null, 10, "150px"],
     backgroundColor: "primary",
     container: {
       display: "flex",
