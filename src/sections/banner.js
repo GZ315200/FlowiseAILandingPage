@@ -45,6 +45,10 @@ export default function Banner() {
     e.preventDefault();
     window.open("https://github.com/FlowiseAI/FlowiseAI", "_blank");
   };
+  const handleOpenAppClick = (e) => {
+    e.preventDefault();
+    window.open("https://app.flowiseai.com", "_blank");
+  };
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
@@ -59,13 +63,21 @@ export default function Banner() {
           <Flex>
             <Button
               variant="whiteButton"
+              aria-label="Open App"
+              onClick={handleOpenAppClick}
+            >
+              Get Started
+            </Button>
+            <Button
+              variant="secondary"
               aria-label="View Github"
+              sx={{ ml: 2 }}
               onClick={handleViewGithubClick}
             >
               <FaGithub />
               &nbsp; View Github
             </Button>
-            <>
+            {/*<>
               <ModalVideo
                 channel="youtube"
                 isOpen={videoOpen}
@@ -79,7 +91,7 @@ export default function Banner() {
               >
                 <FaPlayCircle /> Watch Video
               </Button>
-            </>
+            </>*/}
           </Flex>
           <Flex sx={styles.sponsorBox}>
             <Box sx={styles.sponsorBox.sponsor}>
