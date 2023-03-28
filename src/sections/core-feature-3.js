@@ -2,25 +2,22 @@
 import { jsx, Container, Box, Grid, Text, Heading } from "theme-ui";
 import TextFeature from "components/text-feature";
 import Image from "components/image";
-
-import CoreFeatureThumb from "assets/coreFeature.png";
-import Briefcase from "assets/core-feature/briefcase.svg";
-import Secure from "assets/core-feature/secure.svg";
+import CoreFeatureThumb2 from "assets/coreFeature-2.png";
 
 const data = {
   subTitle: "",
-  title: "Text classification, summarization and completion",
+  title: "Speech to Text, Audio Recognition and Voice Detection",
   description:
-    "Using LLM models to perform text-based AI operations such as classifying emails and comments",
+    "Transcripe a recording from meetings into text and summarize the key notes, detect audio tone, generate new audio with different persona",
   features: [],
 };
 
-export default function CoreFeature() {
+export default function CoreFeature3() {
   return (
     <section sx={styles.coreFeature} id="feature">
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={CoreFeatureThumb} alt="Thumbnail" />
+          <Image src={CoreFeatureThumb2} alt="Thumbnail" />
         </Box>
         <Box sx={styles.contentBox}>
           <Box sx={styles.headingTop}>

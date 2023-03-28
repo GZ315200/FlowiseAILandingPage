@@ -7,7 +7,7 @@ import PaymentPattern from "assets/payment-pattern.png";
 
 const data = {
   subTitle: "",
-  title: "Connect open source AI models with applications",
+  title: "Connect AI models with applications",
   description:
     "FlowiseAI enable developers to build custom apps integration, combined with open source AI model APIs, building complex and powerful workflows",
   btnName: "See All Integrations",

@@ -10,24 +10,24 @@ import Speed from "assets/key-feature/speed.svg";
 const data = [
   {
     id: 1,
-    imgSrc: Editing,
-    altText: "OpenSource",
-    title: "Open Source",
-    text: "Full source code available and free to self-host",
+    imgSrc: Speed,
+    altText: "Deploy Fast",
+    title: "Deploy Fast",
+    text: "One click to deploy prebuilt ChatGPT Plugin",
   },
   {
     id: 2,
-    imgSrc: Vector,
-    altText: "Extensible Apps",
-    title: "Extensible",
-    text: "Create custom apps integration or extend functionalities",
+    imgSrc: Editing,
+    altText: "OpenSource",
+    title: "Open Source",
+    text: "Open source workflow automation, forever free to self-host",
   },
   {
     id: 3,
-    imgSrc: Speed,
-    altText: "Speed",
-    title: "Schedule & Fine-tune",
-    text: "Periodically pull in the data for AI model fine-tuning",
+    imgSrc: Vector,
+    altText: "Extensible Apps",
+    title: "Extensible Apps",
+    text: "Create custom apps integration or extend functionalities",
   },
 ];
 

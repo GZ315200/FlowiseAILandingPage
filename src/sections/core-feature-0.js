@@ -2,16 +2,16 @@
 import { jsx, Container, Box } from "theme-ui";
 import TextFeature from "components/text-feature";
 import Image from "components/image";
-import CoreFeatureThumb from "assets/coreFeature-1.png";
+import CoreFeatureThumb from "assets/coreFeature-0.png";
 
 const data = {
   subTitle: "",
-  title: "Image generation, detection, and restoration",
+  title: "One click deploy ChatGPT Plugin without code",
   description:
-    "With Computer Vision AI Models, identify patterns within image, perform restoration, generation, classification and much more",
+    "Deploy your own ChatGPT plugin and upsert data specific to your use cases",
 };
 
-export default function CoreFeature2() {
+export default function CoreFeature0() {
   return (
     <section sx={{ variant: "section.partner" }}>
       <Container sx={styles.containerBox}>
@@ -25,7 +25,13 @@ export default function CoreFeature2() {
           />
         </Box>
         <Box sx={{ px: [0, null, "40px", 0] }}>
-          <Image src={CoreFeatureThumb} alt="Partner" />
+          <div style={{ padding: 50 }}>
+            <Image
+              sx={{ boxShadow: "0 5px 14px 0 rgb(32 40 45 / 8%)" }}
+              src={CoreFeatureThumb}
+              alt="Partner"
+            />
+          </div>
         </Box>
       </Container>
     </section>

@@ -7,8 +7,9 @@ const faqs = [
     title: "Is it free?",
     contents: (
       <div>
-        Yes! FlowiseAI will always be free to self-host and source code
-        available.
+        Self-hosted FlowiseAI will always be free and source code available.
+        <br />
+        Additional charge may applies to ChatGPT Plugin deployment.
       </div>
     ),
   },

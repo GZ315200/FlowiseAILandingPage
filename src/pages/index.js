@@ -6,9 +6,10 @@ import SEO from "components/seo";
 import Layout from "components/layout";
 import Banner from "sections/banner";
 import KeyFeature from "sections/key-feature";
-import CoreFeature from "sections/core-feature";
+import CoreFeature0 from "sections/core-feature-0";
 import CoreFeature1 from "sections/core-feature-1";
 import CoreFeature2 from "sections/core-feature-2";
+import CoreFeature3 from "sections/core-feature-3";
 import Feature from "sections/feature";
 import PartnerSection from "sections/partner";
 import WorkFlow from "sections/workflow";
@@ -25,9 +26,10 @@ export default function IndexPage() {
           <SEO title="FlowiseAI - Integrate your AI Workflow" />
           <Banner />
           <KeyFeature />
-          <CoreFeature />
+          <CoreFeature0 />
           <CoreFeature1 />
           <CoreFeature2 />
+          <CoreFeature3 />
           <PartnerSection />
           <WorkFlow />
           <Faq />

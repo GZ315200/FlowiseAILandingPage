@@ -57,8 +57,9 @@ export default function Banner() {
             Integrate your AI Workflow
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Open source AI workflow automation, customizable and easily
-            integrating with your daily productivity tools
+            Build ChatGPT Plugin and AI workflow automation with no code, highly
+            customizable and easily integrating with your daily productivity
+            tools
           </Text>
           <Flex>
             <Button
