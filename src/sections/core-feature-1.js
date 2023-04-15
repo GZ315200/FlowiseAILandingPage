@@ -3,23 +3,22 @@ import { jsx, Container, Box, Grid, Text, Heading } from "theme-ui";
 import TextFeature from "components/text-feature";
 import Image from "components/image";
 
-import CoreFeatureThumb from "assets/coreFeature.png";
+import CoreFeatureThumb from "assets/githubqna.png";
 import Briefcase from "assets/core-feature/briefcase.svg";
 import Secure from "assets/core-feature/secure.svg";
 
 const data = {
   subTitle: "",
-  title: "Text classification, summarization and completion",
-  description:
-    "Using LLM models to perform text-based AI operations such as classifying emails and comments",
+  title: "QnA Retrieval Chain",
+  description: "Github repo QnA using conversational retrieval QA chain",
   features: [],
 };
 
 export default function CoreFeature1() {
   return (
     <section sx={styles.coreFeature} id="feature">
-      <Container sx={styles.containerBox}>
-        <Box sx={styles.thumbnail}>
+      <Container style={{ marginBottom: 70 }} sx={styles.containerBox}>
+        <Box>
           <Image src={CoreFeatureThumb} alt="Thumbnail" />
         </Box>
         <Box sx={styles.contentBox}>

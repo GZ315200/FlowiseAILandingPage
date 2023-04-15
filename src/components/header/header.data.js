@@ -5,11 +5,15 @@ export default [
   },
   {
     path: "whyus",
-    label: "Why FlowiseAI",
+    label: "Why Flowise",
   },
   {
     path: "feature",
-    label: "Features",
+    label: "Examples",
+  },
+  {
+    path: "howitworks",
+    label: "How It Works",
   },
   {
     path: "faq",

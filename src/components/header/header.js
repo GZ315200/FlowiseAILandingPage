@@ -8,11 +8,12 @@ import LogoWhite from "assets/flowise_logo_dark.png";
 import { DrawerProvider } from "../../contexts/drawer/drawer.provider";
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
+import { FaGithub } from "react-icons/fa";
 
 export default function Header({ className }) {
   const handleOpenAppClick = (e) => {
     e.preventDefault();
-    window.open("https://app.flowiseai.com", "_blank");
+    window.open("https://github.com/FlowiseAI/Flowise", "_blank");
   };
   return (
     <DrawerProvider>
@@ -39,10 +40,11 @@ export default function Header({ className }) {
           <Button
             className="donate__btn"
             variant="secondary"
-            aria-label="Get Started"
+            aria-label="Star Github"
             onClick={handleOpenAppClick}
           >
-            Get Started
+            <FaGithub />
+            &nbsp; Star ⭐ Github
           </Button>
 
           <MobileDrawer />

@@ -2,10 +2,10 @@ import React from "react";
 import Head from "next/head";
 
 export default function SEO({
-  description = "Integrate your AI Workflow",
+  description = "Open source UI visual tool to build your customized LLM flow using Langchain",
   author = "FlowiseAI, Inc",
   meta,
-  title = "Integrate your AI Workflow",
+  title = "Build LLMs Apps Easily",
 }) {
   const metaData = [
     {

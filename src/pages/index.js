@@ -23,14 +23,13 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="FlowiseAI - Integrate your AI Workflow" />
+          <SEO title="FlowiseAI - Build LLMs Apps Easily" />
           <Banner />
           <KeyFeature />
           <CoreFeature0 />
           <CoreFeature1 />
           <CoreFeature2 />
           <CoreFeature3 />
-          <PartnerSection />
           <WorkFlow />
           <Faq />
         </Layout>

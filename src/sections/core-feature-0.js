@@ -2,13 +2,13 @@
 import { jsx, Container, Box } from "theme-ui";
 import TextFeature from "components/text-feature";
 import Image from "components/image";
-import CoreFeatureThumb from "assets/coreFeature-0.png";
+import CoreFeatureThumb from "assets/LLMChain.png";
 
 const data = {
   subTitle: "",
-  title: "One click deploy ChatGPT Plugin without code",
+  title: "LLM Chain",
   description:
-    "Deploy your own ChatGPT plugin and upsert data specific to your use cases",
+    "Basic example of LLM Chain with a Prompt Template and LLM Model",
 };
 
 export default function CoreFeature0() {
@@ -25,13 +25,11 @@ export default function CoreFeature0() {
           />
         </Box>
         <Box sx={{ px: [0, null, "40px", 0] }}>
-          <div style={{ padding: 50 }}>
-            <Image
-              sx={{ boxShadow: "0 5px 14px 0 rgb(32 40 45 / 8%)" }}
-              src={CoreFeatureThumb}
-              alt="Partner"
-            />
-          </div>
+          <Image
+            sx={{ boxShadow: "0 5px 14px 0 rgb(32 40 45 / 8%)" }}
+            src={CoreFeatureThumb}
+            alt="Partner"
+          />
         </Box>
       </Container>
     </section>

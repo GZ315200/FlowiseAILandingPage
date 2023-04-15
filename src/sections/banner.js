@@ -43,7 +43,7 @@ export default function Banner() {
   };
   const handleViewGithubClick = (e) => {
     e.preventDefault();
-    window.open("https://github.com/FlowiseAI/FlowiseAI", "_blank");
+    window.open("https://github.com/FlowiseAI/Flowise", "_blank");
   };
   const handleOpenAppClick = (e) => {
     e.preventDefault();
@@ -54,29 +54,20 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Integrate your AI Workflow
+            Build LLMs Apps Easily
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Build ChatGPT Plugin and AI workflow automation with no code, highly
-            customizable and easily integrating with your daily productivity
-            tools
+            Open source UI visual tool to build your customized LLM flow using
+            LangchainJS, written in Node Typescript/Javascript
           </Text>
           <Flex>
             <Button
               variant="whiteButton"
-              aria-label="Open App"
-              onClick={handleOpenAppClick}
-            >
-              Get Started
-            </Button>
-            <Button
-              variant="secondary"
               aria-label="View Github"
-              sx={{ ml: 2 }}
               onClick={handleViewGithubClick}
             >
               <FaGithub />
-              &nbsp; View Github
+              &nbsp; Star ⭐ Github
             </Button>
             {/*<>
               <ModalVideo
@@ -94,7 +85,7 @@ export default function Banner() {
               </Button>
             </>*/}
           </Flex>
-          <Flex sx={styles.sponsorBox}>
+          {/*<Flex sx={styles.sponsorBox}>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
                 <Link path={item.path} key={`client-key${index}`}>
@@ -102,7 +93,7 @@ export default function Banner() {
                 </Link>
               ))}
             </Box>
-          </Flex>
+              </Flex>*/}
         </Box>
 
         <Box sx={styles.banner.imageBox}>

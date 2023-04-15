@@ -12,7 +12,7 @@ const data = {
     "FlowiseAI enable developers to build custom apps integration, combined with open source AI model APIs, building complex and powerful workflows",
   btnName: "See All Integrations",
   btnURL:
-    "https://github.com/FlowiseAI/FlowiseAI/tree/main/packages/components/nodes",
+    "https://github.com/FlowiseAI/Flowise/tree/main/packages/components/nodes",
 };
 
 export default function PartnerSection() {

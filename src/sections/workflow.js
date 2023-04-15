@@ -32,7 +32,7 @@ const data = [
 
 export default function WorkFlow() {
   return (
-    <section sx={styles.workflow}>
+    <section sx={styles.workflow} id="howitworks">
       <Container>
         <SectionHeader
           slogan=""
@@ -40,17 +40,12 @@ export default function WorkFlow() {
           isWhite={true}
         />
 
-        <Grid sx={styles.grid}>
-          {data.map((item) => (
-            <Box sx={styles.card} key={item.id}>
-              <Box sx={styles.iconBox}>{`0${item.id}`}</Box>
-              <Box sx={styles.wrapper}>
-                <Heading sx={styles.wrapper.title}>{item.title}</Heading>
-                <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
-              </Box>
-            </Box>
-          ))}
-        </Grid>
+        <video
+          src={"https://general-flowise.s3.amazonaws.com/Introduction.mp4"}
+          width="100%"
+          controls="controls"
+          autoplay="true"
+        />
       </Container>
     </section>
   );
@@ -59,8 +54,6 @@ export default function WorkFlow() {
 const styles = {
   workflow: {
     backgroundColor: "primary",
-    backgroundImage: `url(${PatternBG})`,
-    backgroundRepeat: `no-repeat`,
     backgroundPosition: "center center",
     backgroundSize: "cover",
     position: "relative",
@@ -70,8 +63,6 @@ const styles = {
       content: '""',
       top: 0,
       right: 0,
-      background:
-        "linear-gradient(-45deg, rgba(42,72,125, 0.3) 25%, transparent 25%, transparent 50%, rgba(42,72,125, 0.3) 50%, rgba(42,72,125, 0.3) 75%, transparent 75%, transparent)",
       width: "100%",
       backgroundSize: "350px 350px",
       height: "100%",

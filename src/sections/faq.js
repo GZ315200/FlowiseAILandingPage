@@ -7,9 +7,8 @@ const faqs = [
     title: "Is it free?",
     contents: (
       <div>
-        Self-hosted FlowiseAI will always be free and source code available.
-        <br />
-        Additional charge may applies to ChatGPT Plugin deployment.
+        Yes! Open source is the core of Flowise, and it will always free for
+        commercial and personal usage
       </div>
     ),
   },
@@ -27,7 +26,7 @@ const faqs = [
             borderRadius: 10,
           }}
         >
-          npm install -g flowiseai
+          npm install -g flowise
         </code>
         <br />
         <br />
@@ -41,7 +40,7 @@ const faqs = [
             borderRadius: 10,
           }}
         >
-          npx flowiseai start
+          npx flowise start
         </code>
       </div>
     ),
@@ -75,7 +74,7 @@ const faqs = [
           hello@flowiseai.com
         </a>
         <br />
-        <a target="_blank" href="https://discord.gg/GWcGczPk">
+        <a target="_blank" href="https://discord.gg/7C5xTWP8">
           Discord
         </a>
         <br />

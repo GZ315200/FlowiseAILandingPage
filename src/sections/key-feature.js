@@ -9,25 +9,26 @@ import Speed from "assets/key-feature/speed.svg";
 
 const data = [
   {
-    id: 1,
-    imgSrc: Speed,
-    altText: "Deploy Fast",
-    title: "Deploy Fast",
-    text: "One click to deploy prebuilt ChatGPT Plugin",
-  },
-  {
     id: 2,
     imgSrc: Editing,
     altText: "OpenSource",
     title: "Open Source",
-    text: "Open source workflow automation, forever free to self-host",
+    text: "Open source MIT license",
   },
+  {
+    id: 1,
+    imgSrc: Speed,
+    altText: "Build Fast",
+    title: "Build Fast",
+    text: "See your LLM apps running live",
+  },
+
   {
     id: 3,
     imgSrc: Vector,
-    altText: "Extensible Apps",
-    title: "Extensible Apps",
-    text: "Create custom apps integration or extend functionalities",
+    altText: "Extensible Component",
+    title: "Extensible Component",
+    text: "Custom component integrations",
   },
 ];
 
@@ -35,7 +36,7 @@ export default function KeyFeature() {
   return (
     <section sx={{ variant: "section.keyFeature" }} id="whyus">
       <Container>
-        <SectionHeader slogan="" title="Why use FlowiseAI?" />
+        <SectionHeader slogan="" title="Why use Flowise?" />
 
         <Grid sx={styles.grid}>
           {data.map((item) => (

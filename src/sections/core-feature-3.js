@@ -2,21 +2,21 @@
 import { jsx, Container, Box, Grid, Text, Heading } from "theme-ui";
 import TextFeature from "components/text-feature";
 import Image from "components/image";
-import CoreFeatureThumb2 from "assets/coreFeature-2.png";
+import CoreFeatureThumb2 from "assets/ConversationalAgent.png";
 
 const data = {
   subTitle: "",
-  title: "Speech to Text, Audio Recognition and Voice Detection",
+  title: "Conversational Agent with Memory",
   description:
-    "Transcripe a recording from meetings into text and summarize the key notes, detect audio tone, generate new audio with different persona",
+    "Conversational agent for a chat model which utilize chat specific prompts and buffer memory",
   features: [],
 };
 
 export default function CoreFeature3() {
   return (
     <section sx={styles.coreFeature} id="feature">
-      <Container sx={styles.containerBox}>
-        <Box sx={styles.thumbnail}>
+      <Container style={{ marginBottom: 70 }} sx={styles.containerBox}>
+        <Box>
           <Image src={CoreFeatureThumb2} alt="Thumbnail" />
         </Box>
         <Box sx={styles.contentBox}>
@@ -27,19 +27,6 @@ export default function CoreFeature3() {
               description={data.description}
             />
           </Box>
-
-          <Grid gap="15px 0" columns={1} sx={styles.grid}>
-            {data.features.map((item) => (
-              <Box sx={styles.card} key={item.id}>
-                <Image src={item.imgSrc} alt={item.altText} sx={styles.img} />
-
-                <Box sx={styles.wrapper}>
-                  <Heading sx={styles.wrapper.title}>{item.title}</Heading>
-                  <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
-                </Box>
-              </Box>
-            ))}
-          </Grid>
         </Box>
       </Container>
     </section>

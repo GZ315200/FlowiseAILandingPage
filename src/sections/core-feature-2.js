@@ -2,13 +2,13 @@
 import { jsx, Container, Box } from "theme-ui";
 import TextFeature from "components/text-feature";
 import Image from "components/image";
-import CoreFeatureThumb from "assets/coreFeature-1.png";
+import CoreFeatureThumb from "assets/translator.png";
 
 const data = {
   subTitle: "",
-  title: "Image generation, detection, and restoration",
+  title: "Language Translation Chain",
   description:
-    "With Computer Vision AI Models, identify patterns within image, perform restoration, generation, classification and much more",
+    "Language translation using LLM Chain with a Chat Prompt Template and Chat Model",
 };
 
 export default function CoreFeature2() {
