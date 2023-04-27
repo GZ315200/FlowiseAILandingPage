@@ -74,12 +74,12 @@ const faqs = [
           hello@flowiseai.com
         </a>
         <br />
-        <a target="_blank" href="https://discord.gg/7C5xTWP8">
+        <a target="_blank" href="https://discord.gg/jbaHfsRVBW">
           Discord
         </a>
         <br />
-        <a target="_blank" href="https://calendly.com/henryheng/30min">
-          Book Demo
+        <a target="_blank" href="https://twitter.com/FlowiseAI">
+          Twitter
         </a>
       </div>
     ),
